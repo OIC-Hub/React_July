@@ -3,7 +3,7 @@ import Footer from "./components/Footer"
 import Profile from "./components/Profile"
 import Card from "./components/Card"
 import State from "./components/State"
-
+import Clock from "./components/Clock"
 function App() {
   return (
     <>
@@ -23,6 +23,7 @@ function App() {
         
       </Card> */}
         <State/>
+        <Clock/>
       {/* <Footer /> */}
     </>
   )
