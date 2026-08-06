@@ -9,6 +9,7 @@ import Homepage from "./pages/Homepage"
 import AboutPage from "./pages/AboutPage"
 import ContactPage from "./pages/ContactPage"
 import NotFound from "./pages/NotFound"
+import Data from "./pages/Data"
 function App() {
   return (
     <>
@@ -35,6 +36,7 @@ function App() {
               <Route path="/" element={<Homepage/>} />
               <Route path="/about" element={<AboutPage/>} />
               <Route path="/contact" element={<ContactPage/>} />
+              <Route path="/user/:id" element={<Data/>} />
               <Route path="*" element={<NotFound/>} />
 
           </Routes>
